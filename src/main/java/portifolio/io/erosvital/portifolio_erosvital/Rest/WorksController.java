@@ -27,7 +27,7 @@ import portifolio.io.erosvital.portifolio_erosvital.util.BigDecimalConverter;
 @RequestMapping("/api/works")
 @RequiredArgsConstructor
 public class WorksController  {
-
+    
     private final PartnerRepository partnerRepository;
     private final WorksRepository repository;
     private final BigDecimalConverter bigDecimalConverter;
