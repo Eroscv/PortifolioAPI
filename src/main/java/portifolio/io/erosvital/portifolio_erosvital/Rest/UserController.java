@@ -14,7 +14,7 @@ import portifolio.io.erosvital.portifolio_erosvital.Domain.User;
 import portifolio.io.erosvital.portifolio_erosvital.Service.UserService;
 
 @RestController
-@RequestMapping("/api/usuarios")
+@RequestMapping("/api/users")
 @RequiredArgsConstructor
 public class UserController {
 
